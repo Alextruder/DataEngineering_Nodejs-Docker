@@ -1,7 +1,7 @@
 FROM node:16
-WORKDIR /app
-COPY package.json /app
+WORKDIR /backend
+COPY ./backend/package.json /backend
 RUN npm install
-COPY ./ /app
+COPY ./ /backend/
 EXPOSE 8083
 CMD ["npm", "start"]
