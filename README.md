@@ -1,5 +1,4 @@
 # BigDataApplication_Nodejs
-This TP was realized by 2 Efrei students: `Marion Bartier` and `Alexandre Vignaud`.
 
 ## Technologies
 The different technologies we used were:
