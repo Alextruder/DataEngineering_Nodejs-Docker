@@ -7,5 +7,10 @@ pipeline{
                 bat "docker-compose -f docker-compose.yaml up -d"
             }
         }
+        stage('NPM start'){
+            steps{
+                bat "docker-compose up"
+            }
+        }
     }
 }
